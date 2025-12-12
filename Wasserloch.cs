@@ -84,7 +84,7 @@ namespace Wasserloch
         public void Tarnen(Object sender, RaubkatzeEventArgs e)
         {
 
-            Console.WriteLine("Die Tarntiere setzen sich Brillen auf. Diese doofen mit Nase und Schnurrbart dran.");
+            Console.WriteLine("Die Tarntiere setzen sich Brillen auf. Diese doofen mit Nasen und Schnurrbart dran.");
         }
 
     }
@@ -110,4 +110,5 @@ namespace Wasserloch
         }
     }
 }
+
 
