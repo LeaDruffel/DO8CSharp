@@ -52,6 +52,7 @@
         public void TempChange(object sender, MyEventArgs e)
         {
             Console.Clear();
+             Console.WriteLine(DateTime.Now);
             Console.WriteLine("Operation: ");
             Console.WriteLine(e.Operation);
             Console.WriteLine("Aktuelle Temperatur des Warpkerns: ");
@@ -62,6 +63,7 @@
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Red;
+             Console.WriteLine(DateTime.Now);
             Console.WriteLine("Warnung: ");
             Console.WriteLine(e.Operation);
             Console.WriteLine("Aktuelle Temperatur des Warpkerns: ");
@@ -85,3 +87,4 @@
         }
     }
 }
+
