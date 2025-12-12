@@ -1,4 +1,4 @@
-﻿namespace Wasserloch
+namespace Wasserloch
 {
 
 
@@ -12,12 +12,7 @@
         }
     }
 
-
-    public class Tier
-    {
-
-    }
-    public class Wächtertier :Tier
+    public class Wächtertier
     {
        
         public event EventHandler<RaubkatzeEventArgs> RaubkatzeKommt;
@@ -47,7 +42,7 @@
             Console.WriteLine("Da schleicht sich etwas an. Das Wächtertier macht Sirenengeräusche!");
         }
     }
-    public class Fluchttier : Tier
+    public class Fluchttier
     {
         private Wächtertier _wt;
 
@@ -62,7 +57,7 @@
             Console.WriteLine("Die Fluchttiere nehmen die Beine in die Hand!");
         }
     }
-    public class Kampftier : Tier
+    public class Kampftier
     {
         private Wächtertier _wt;
         public Kampftier(Wächtertier wt)
@@ -77,7 +72,7 @@
         }
 
     }
-    public class Tarntier : Tier
+    public class Tarntier
     {
         private Wächtertier _wt;
 
@@ -93,7 +88,7 @@
         }
 
     }
-    public class Raubkatze : Tier
+    public class Raubkatze
     {
 
     }
@@ -115,3 +110,4 @@
         }
     }
 }
+
