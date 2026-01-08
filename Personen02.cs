@@ -22,7 +22,7 @@ namespace Personen02
         }
         public override string ToString()
         {
-            return Nachname;
+            return Vorname + " " + Nachname + " " + Geburtsdatum.ToShortDateString();
         }
 
     }
@@ -56,9 +56,8 @@ namespace Personen02
 
             foreach (var p in listeneu)
             {
-                Console.WriteLine(p.Nachname);
-                Console.WriteLine(p.Vorname);
-                Console.WriteLine(p.Geburtsdatum.ToString());
+                Console.WriteLine(p.ToString());
+             
             }
         }
     }
